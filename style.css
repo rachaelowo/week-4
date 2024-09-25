@@ -1,0 +1,102 @@
+
+
+body {
+    background: linear-gradient(to bottom, #dd87d0, #E6E6FA);
+    color: white; 
+    background-color: white; 
+    color: black;           
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    margin: 50px;           
+    text-align: left; 
+    }
+
+header {
+    display: block;
+    padding: 1px;        
+    background-color: black; 
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+div{
+    margin: 0%;
+    padding: 20px;}
+
+
+nav {
+    background-color: black;
+    padding: 10px;  }
+
+nav ul {
+  
+    margin: 0;              
+    padding: 0;  }
+
+ul li 
+    { list-style-type: none;    }
+
+nav li {
+    display: inline;         
+    list-style-type: none;   
+    margin-right: 15px;}
+
+nav a {
+    color: white;          
+    text-decoration: none; 
+    padding: 10px 15px;}   
+
+nav a:hover {
+    background-color: plum;  
+    color: black; }   
+    
+aside [id="movies"]{
+    text-align: right;
+}
+
+
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    text-size-adjust: 100%; 
+    font-size: larger;}
+
+
+aside {
+    text-align: center;     
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif; }
+
+
+input[type="text"], textarea {
+    width: 100%;            
+    padding: 10px 15px;         
+    border-radius: 5px;    
+    box-sizing: border-box; 
+    margin: 10px 0; }       
+
+input[type="submit"] {
+    width: 100%;             
+    padding: 20px;         
+    border: 2px solid black; 
+    border-radius: 5px;     
+    background-color:;
+    color: white;          
+    cursor: pointer; }
+
+input[type="submit"]:hover 
+   { background-color: rgb(170, 86, 170); }
+
+
+footer{
+    text-align: center;      
+    margin-top: 20px;       
+    padding: 5px;          
+    background-color: black; 
+    color: white;}
+
+.container {
+    display: flex;                
+    justify-content: space-around;
+    align-items: center;       
+    height: 100vh;            
+    background-color: #f4f4f4;}
